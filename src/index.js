@@ -1,9 +1,29 @@
-function combine(...obj) {
-  obj.reduce((acc, value) => {
-    acc[value] = 
-  }, {})
-}
-  const objA = { a: 10, b: 20, c: 30 }
-  const objB = { a: 3, c: 6, d: 3 }
+const ageTable = {
+  firstSonAge: 14,
+  secondSonAge: 9,
+  thirdSonAge: 8
+};
 
-combine(objA, objB)
+const diary1 = {
+  algebra: 6,
+  history: 7,
+  physics: 8,
+  geography: 9,
+  chemistry: 10
+};
+
+const diary2 = {
+  algebra: 8,
+  history: 7,
+  physics: 8,
+  geography: 9,
+  chemistry: 10
+};
+
+const diary3 = {
+  algebra: 6,
+  history: 5,
+  physics: 5,
+  geography: 9,
+  chemistry: 10
+};
